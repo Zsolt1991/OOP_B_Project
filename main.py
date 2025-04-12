@@ -38,7 +38,7 @@ def main():
                     else:
                         print("Hiba: ilyen járatszám nem létezik.")
             except ValueError:
-                print("Hiba: Érvénytelen dátumformátum. Használj ÉÉÉÉ-HH-NN formátumot.")
+                print("Hiba: Érvénytelen dátumformátum. Használj ÉÉÉÉ.HH.NN formátumot.")
 
         elif valasztas == "3":
             nev = input("Add meg a neved: ")
@@ -55,7 +55,7 @@ def main():
                 print(f)
 
         elif valasztas == "5":
-            print("Kilépés...")
+            print("Viszontlátásra!")
             break
 
         else:
